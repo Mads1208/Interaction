@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="assets/reset.css" rel="stylesheet">
+		<link href="assets/style.css" rel="stylesheet">
+		<script src="assets/arena.js" type="text/javascript"></script>
+		<link href="assets/favicon.png" rel="icon">
+	</head>
+	<body>
+
+		<!-- Replace this URL with your channel to connect the API! -->
+		<a href="https://www.are.na/bryan-oh/b-c-e-big-coat-energy" id="channel-url">
+			<h1 id="channel-title"></h1> <!-- The channel title will be inserted inside this h1. -->
+		</a>
+		<div id="channel-description"></div> <!-- Same here for the channel description. -->
+
+
+
+		<!-- All the channel “blocks” will be created as children, here. -->
+		<!-- You could move the classes to different section elements to separate the types! -->
+		<section class="link-blocks text-blocks">
+			<h2></h2>
+		</section>
+
+
+		<!-- These are the templates for the various block types, below. -->
+		<!-- You can move/nest/remove any of the insertion points! -->
+		<!-- For example, you could only show images for actual image blocks. -->
+		<!-- You could not show the type if you group them by section, above. -->
+
+
+		<template id="link-block">
+			<figure class="link-block">
+				<div class="row">
+        <div class="column" width:"50%">
+				<h3 class="title"></h3>
+				<img class="image">
+				<a class="link">
+				<p class="link-title"></p>
+				</a>
+				<figcaption class="description"></figcaption>
+				<button class="btn2"role="button">Read more ⇾</button>
+				<p class="type"></p>
+			</figure>
+		</template>
+
+
+
+
+	</body>
+</html>
